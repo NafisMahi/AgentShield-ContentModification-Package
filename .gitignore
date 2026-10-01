@@ -1,0 +1,35 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+
+# Node
+node_modules/
+*.tgz
+
+# Secrets / env
+.env
+.env.*
+!.env.example
+
+# Static build output
+dist/
+
+# Pipeline working outputs (generated when the pipeline is run inside a demo folder).
+# Do not ignore content/: for a local site, that folder is the content source.
+agentshield.config.json
+agentshield.manifest.json
+agentshield.mapping.json
+injected/
+work/
+
+# Generated demo database (rebuilt by demo-db-site/build_db.py)
+demo-db-site/data/
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.vscode/

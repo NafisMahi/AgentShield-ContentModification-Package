@@ -1,0 +1,15 @@
+{
+  "name": "agentshield-inject",
+  "version": "0.1.0",
+  "description": "Server-side injector for AgentShield: embeds hidden prompt markup into a site's HTML responses by URL. Ships an Express/connect middleware and a standalone reverse-proxy service.",
+  "main": "index.js",
+  "type": "commonjs",
+  "bin": { "agentshield-proxy": "./agentshield-proxy.js" },
+  "files": ["index.js", "proxy.js", "agentshield-proxy.js", "README.md"],
+  "engines": { "node": ">=16" },
+  "scripts": {
+    "start": "node agentshield-proxy.js"
+  },
+  "keywords": ["agentshield", "injection", "middleware", "reverse-proxy", "prompt"],
+  "license": "MIT"
+}

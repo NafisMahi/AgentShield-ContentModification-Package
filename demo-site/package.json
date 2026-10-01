@@ -1,0 +1,13 @@
+{
+  "name": "greenleaf-demo-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Markdown demo store (GreenLeaf Organics) for AgentShield-local. Pages render from the content/*.md files the pipeline reads.",
+  "scripts": {
+    "start": "node server.js",
+    "build": "node build-static.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
